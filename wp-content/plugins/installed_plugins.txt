@@ -1,0 +1,10 @@
+astra-widgets:                  widgets for astra theme
+classic-editor:                 classic editor required for gutemberg
+companion-auto-update:          auto-updater
+gutemberg:                      block editor (main editor)
+menu-icons:                     icons in the header menu
+microthemer:                    editing site style
+modal-block:                    implementing modals
+slide-anything:                 implementing sliders
+ultimate-addons-for-gutemberg:  addons for gutemberg block editor
+wp-google-fonts:                google fonts

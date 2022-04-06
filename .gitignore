@@ -24,9 +24,8 @@ wp-config.php
 /wp-content/themes/astra/
 
 # Plugins
-/wp-content/plugins/
-!/wp-content/plugins/installed-plugins.txt
-
+/wp-content/plugins/*
+!/wp-content/plugins/installed_plugins.txt
 # Uploads
 /wp-content/uploads/
 
