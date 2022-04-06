@@ -34,3 +34,6 @@ wp-config.php
 
 # htaccess
 /.htaccess
+
+#VSCode Workspace file
+*.code-workspace
