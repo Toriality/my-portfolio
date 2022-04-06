@@ -1,0 +1,2 @@
+Astra:          Parent theme for making our main theme work
+Astra-Child:    Child theme which is our main theme to make adjusts to the code

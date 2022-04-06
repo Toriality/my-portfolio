@@ -1,0 +1,57 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= General =================== */
+
+/** General >> Project advanced columns **/
+.project-advanced-columns {
+	min-height: 25em !important;
+	padding: 0 !important;
+}
+.project-title {
+	color: var(--ast-global-color-0) !important;
+	line-height: 100% !important;
+	margin-bottom: 10px !important;
+}
+p.project-title {
+	font-size: 3em !important;
+}
+.project-column-image {
+	-webkit-flex-grow: 1 !important;
+	flex-grow: 1 !important;
+	height: 25em !important;
+	border-width: 4px !important;
+	border-style: solid !important;
+	border-color: var(--ast-global-color-0) !important;
+	border-top: 0 !important;
+	border-right: 0 !important;
+	border-bottom: 0 !important;
+	background-size: contain !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+}
+.project-column-text {
+	width: 45% !important;
+	-webkit-align-items: center !important;
+	align-items: center !important;
+	padding-right: 50px !important;
+}
+p.project-desc {
+	color: var(--ast-global-color-3) !important;
+	text-align: justify !important;
+}
+.project-button-info, 
+.uagb-button__wrapper, 
+.project-button-site {
+	display: inline !important;
+}
+
+/** General >> Owl prev **/
+.owl-prev, 
+.owl-next {
+	border-radius: 100% !important;
+}
+.owl-prev {
+	left: -30px !important;
+}
+
