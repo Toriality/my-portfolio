@@ -33,6 +33,9 @@ wp-config.php
 # Pictures folder
 /pictures/
 
+# Microthemer
+/wp-content/micro-themes/
+
 # Log files
 *.log
 
