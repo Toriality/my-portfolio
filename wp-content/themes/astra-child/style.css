@@ -79,19 +79,30 @@ a {
 
 /* 'My Projects' section' */
 .project-advanced-columns {
-  padding-left: 0 !important;
+  min-height: 25em !important;
+  padding: 0 !important;
 }
 .project-title {
+  color: var(--ast-global-color-0) !important;
   line-height: 100% !important;
   margin-bottom: 10px !important;
 }
+p.project-title {
+  font-size: 3em !important;
+}
 .project-column-image {
-  border-width: 8px !important;
+  -webkit-flex-grow: 1 !important;
+  flex-grow: 1 !important;
+  height: 25em !important;
+  border-width: 4px !important;
   border-style: solid !important;
   border-color: var(--ast-global-color-0) !important;
   border-top: 0 !important;
   border-right: 0 !important;
   border-bottom: 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 .project-button-site a {
   border-radius: 12px !important;
@@ -103,6 +114,22 @@ a {
 .project-section {
   padding: 0 !important;
 }
+.project-column-text {
+  width: 45% !important;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  padding-right: 50px !important;
+}
+p.project-desc {
+  color: var(--ast-global-color-3) !important;
+  text-align: justify !important;
+}
+.project-button-info,
+.uagb-button__wrapper,
+.project-button-site {
+  /* Make buttons inline */
+  display: inline !important;
+}
 .uagb-block-10238d36 .uagb-button__link /* Edit */ {
   color: #fff !important;
   font-weight: 700 !important;
@@ -112,6 +139,18 @@ a {
 }
 .uagb-block-0890062e  /* Edit */ {
   padding: 0 !important;
+}
+
+/* Sliders navigation buttons */
+.owl-prev,
+.owl-next {
+  border-radius: 100% !important;
+}
+.owl-prev {
+  left: -30px !important;
+}
+.owl-next {
+  right: -15px !important;
 }
 
 /* Project's Modals */
