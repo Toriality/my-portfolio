@@ -26,8 +26,12 @@ wp-config.php
 # Plugins
 /wp-content/plugins/*
 !/wp-content/plugins/installed_plugins.txt
+
 # Uploads
 /wp-content/uploads/
+
+# Pictures folder
+/pictures/
 
 # Log files
 *.log
