@@ -247,6 +247,28 @@ p.project-desc {
   justify-content: center !important;
 }
 
+/* Site header customization */
+#title-h1,
+#title-h2 {
+  font-family: "Courier Prime", arial, sans-serif !important;
+  color: white !important;
+  line-height: 100% !important;
+  margin: 0 !important;
+}
+#title-h1 {
+  font-weight: 600 !important;
+  font-size: 2rem !important;
+}
+#title-h2 {
+  font-size: 1rem !important;
+}
+.site-header-primary-section-right {
+  padding-right: 50px !important;
+}
+.site-header-primary-section-left {
+  padding-left: 50px !important;
+}
+
 /* Project's background images */
 #scratchbook-bg {
   background-image: url("/wp-content/uploads/2022/04/mockup_scratchbook-2.png");
